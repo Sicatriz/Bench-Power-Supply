@@ -117,6 +117,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NUXRJQBF
 
+[Document5]
+DocumentPath=PS_voltAmpMeterPrint.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PZZPXUQR
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1131,10 +1148,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=PS_SchematicLib.SchLib
+ComponentDesignItemID0=Bridge_1ph
+ComponentSymbolReference0=Bridge_1ph
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1148,6 +1171,30 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Datasheet
+ParameterUpdate2=1
+ParameterName3=Description
+ParameterUpdate3=1
+ParameterName4=Footprint
+ParameterUpdate4=1
+ParameterName5=ki_description
+ParameterUpdate5=1
+ParameterName6=ki_keywords
+ParameterUpdate6=1
+ParameterName7=Library Reference
+ParameterUpdate7=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=KBPCxxxxFP
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=KBPCxxxxWP
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
